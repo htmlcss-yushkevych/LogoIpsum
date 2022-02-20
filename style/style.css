@@ -164,7 +164,16 @@ input[type="email"] {
   box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
   color: rgba(255, 255, 255, 0.7);
 }
-
+.pricing__tariff:hover .pricing__tariff-name,
+.pricing__tariff:hover .pricing__tariff-price,
+.pricing__tariff:hover .pricing__services {
+  color: #fff;
+}
+.pricing__tariff:hover .button__tariff {
+  background: #9f3919;
+  color: #ffffff;
+  border: none;
+}
 .pricing__tariff-name {
   font-size: 18px;
   line-height: 28px;
